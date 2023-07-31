@@ -34,7 +34,7 @@ function changeColors() {
     const colorText = card.querySelector('.color-text');
     const randomColor = getRandomRGBColor();
     const { red, green, blue } = randomColor;
-    const rgbText = `RGB(${red}, ${green}, ${blue})`;
+    const rgbText = `rgb(${red}, ${green}, ${blue})`;
 
     colorContainer.style.backgroundColor = rgbText;
     colorText.textContent = rgbText;
