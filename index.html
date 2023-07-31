@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Generator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <label class="switch">
+    <input type="checkbox" class="checkbox" id="themeSwitch">
+    <span class="slider" id="themeButton"></span>
+  </label>  
+  
+  <div class="container">
+    <h1 class="header">Random Color Generator</h1>
+  
+    <div class="grid-container">
+      <!--  -->
+      <div class="card">
+        <div class="color-container"></div>
+        <span class="color-text">rgb(0, 0, 0)</span>
+      </div>
+      <!--  -->
+      <div class="card">
+        <div class="color-container"></div>
+        <span class="color-text">rgb(0, 0, 0)</span>
+      </div>
+      <!--  -->
+      <div class="card">
+        <div class="color-container"></div>
+        <span class="color-text">rgb(0, 0, 0)</span>
+      </div>
+      <!--  -->
+      <div class="card">
+        <div class="color-container"></div>
+        <span class="color-text">rgb(0, 0, 0)</span>
+      </div>
+      <!--  -->
+      <div class="card">
+        <div class="color-container"></div>
+        <span class="color-text">rgb(0, 0, 0)</span>
+      </div>
+  
+    </div>
+  
+    <div class="colorBtn">
+      <button class="generate-color" onclick="changeColors()">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> 
+        generate</button>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+  </body>
+  </html>
