@@ -15,6 +15,10 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 :root {
   --light-clr: #d4d4d4;
   --faded-light: #dfdfdf;
